@@ -1,0 +1,46 @@
+{
+  "author": {
+    "name": "Edwin Long",
+    "email": "lfedwin@gmail.com",
+    "url": "ilongfei.cn"
+  },
+  "name": "parser",
+  "description": "Pick data frpm web pages and save them to db. ",
+  "keywords": [
+    "htmlparser",
+    "crawler"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/drlf/parser.git"
+  },
+  "main": "./index.js",
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "dependencies": {
+  	"routes": "*",
+    "ini": "*",
+    "jquery": "*",
+    "redis": "*",
+    "stack": "*",
+    "iconv-lite": "*",
+    "stack-trace" : "*",
+    "winston": "*"
+    "cheerio": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "readme": "",
+  "readmeFilename": "Readme.md",
+  "_id": "parser@0.0.1",
+  "dist": {
+    "shasum": ""
+  },
+  "_from": "lfedwin@gmail.com",
+  "_resolved": ""
+}

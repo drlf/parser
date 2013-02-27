@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../xslt/receipe.xslt"?>
+<!-- 菜谱模板 -->
+<recipe>
+<title>甜酱焖茄子</title>
+<!-- 特色、说明 -->
+<description>茄子软嫩，咸鲜可口，酱香味浓。</description>
+<!-- 分类，现在有菜系、口味、做法，可能增加原料、国家、主食等分类 -->
+<catelog>
+	<style>鲁菜</style>
+	<kouwei>酱香味</kouwei>
+	<gongyi>焖</gongyi>
+</catelog>
+<!-- 用于菜谱搜索 -->
+<tags>
+	<tag>茄子</tag>
+	<tag>家常菜谱</tag>
+	<tag>延缓衰老食谱</tag>
+	<tag>健脾开胃食谱</tag>
+	<tag>营养不良食谱</tag>
+</tags>	
+<!-- 图片，
+	属性如下，都是可选项
+	title[图片名称] 
+	description[图片说明] type[thumbnail 缩略图-用于查询列表，preview 展示图比缩略图稍大、用于展示，
+	origin 原图，前面的几种类型都只允许有一个，step 做法步骤付图，通过序号与做法对应，gallery 赏图] 
+	size[尺寸 长*宽] 
+	filetype[图片类型 jpg、pnp、gif] 
+	index[序号，与做法步骤对应，用于展示做法的图片]
+	location[存储位置，可以指定目录]
+-->
+<images>
+	<image title="" type="thumbnail" size="1024*768" filetype="jpg" index="1">423847895435.jpg</image>
+	<image title="" type="origin" size="1024*768" filetype="jpg" index="1">423847895436.jpg</image>
+</images>
+<!-- 步骤，index为可选项 -->
+<steps>
+	<step index="1">1. 茄子去皮，用手撕成条块，放温植物油中炸透取出，控净油；</step>
+	<step index="2">2. 葱蒜均拍剁成末；</step>
+	<step index="3">3. 锅中留底油，加葱蒜末烹出香味，加入甜面酱炒；</step>
+	<step index="4">4. 待酱与油融为一体时，加入茄子、糖、味精等再炒，随加高汤75克烧透收干即成。</step>
+</steps>
+<!-- 秘方：要诀、贴士 tag[关键字，便于搜索]
+yaojue-要诀是烧好本菜的特别注意点，tag便于搜索。
+tieshi-贴士是与本菜相关的小秘诀，如炸菜，怎么控制油温等待，原本应该从receipe的tag中搜索关联过来，
+此处因为需要支持静态文件方式，所以在这里放一个静态链接。href是贴士的序号或链接地址。
+ -->
+<secrets>
+	<secret type="yaojue" tag="">因有过油炸制过程，需准备植物油约500克。</secret>
+	<secret title="怎样让炸出的茄子更脆" type="tieshi"  href="123123432" />
+</secrets>
+<!-- 用料
+main 主材料， quantity 用量， description 备注。
+spice 调料
+accessories 辅料，一般不用
+ -->
+<materials>
+	<material type="main" quantity="500克" description="刀成小条备用">茄子</material>
+	<material type="spice" quantity="50克">甜面酱</material>
+	<material type="spice" quantity="20克">大葱</material>
+	<material type="spice" quantity="15克">大蒜（白皮）</material>
+	<material type="spice" quantity="10克">白砂糖</material>
+	<material type="spice" quantity="20克">植物油</material>
+	<material type="accessories" quantity="2克">味精</material>
+</materials>
+<!-- 相关菜谱，prev为上一个，next为下一个， -->
+<relatedRecipes>
+	<recipe title="手撕茄子"  position="prev" href="123123432.xml" />
+	<recipe title="油炸茄条"  position="next" href="123123432.xml" />
+</relatedRecipes>
+</recipe>

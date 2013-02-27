@@ -1,0 +1,31 @@
+﻿{
+    "title":"甜酱焖茄子",
+    "description":"茄子软嫩，咸鲜可口，酱香味浓。",
+    "catelog":["鲁菜","酱香味","焖"],
+    "tags":["茄子","家常菜谱","延缓衰老食谱","健脾开胃食谱","营养不良食谱"],
+    "images":[{"title":"","type":"thumbnail","size":"1024*768","filetype":"jpg","index":1,"filename":"423847895435.jpg"},
+        {"title":"","type":"origin","size":"1024*768","filetype":"jpg","index":1,"filename":"423847895436.jpg"}],
+    "steps":[
+        {"index":1, "content":"1. 茄子去皮，用手撕成条块，放温植物油中炸透取出，控净油；","images":[]},
+        {"index":2, "content":"2. 葱蒜均拍剁成末；","images":[]},
+        {"index":3, "content":"3. 锅中留底油，加葱蒜末烹出香味，加入甜面酱炒；","images":[]},
+        {"index":4, "content":"4. 待酱与油融为一体时，加入茄子、糖、味精等再炒，随加高汤75克烧透收干即成。","images":[]}
+    ],
+    "secrets": [
+        {"type":"yaojue","tag":"","title":"","content":"因有过油炸制过程，需准备植物油约500克。"},
+        {"type":"tieshi","tag":"","title":"怎样让炸出的茄子更脆","href":"123123432"}
+    ],
+    "materials" :[
+        {"type": "main", "quantity": "500克", "description": "刀成小条备用", "title": "茄子"},
+        {"type": "spice", "quantity": "50克", "title": "甜面酱"},
+        {"type": "spice", "quantity": "20克", "title": "大葱"},
+        {"type": "spice", "quantity": "15克", "title": "大蒜（白皮）"},
+        {"type": "spice", "quantity": "10克", "title": "白砂糖"},
+        {"type": "spice", "quantity": "20克", "title": "植物油"},
+        {"type": "accessories", "quantity": "2克", "title": "味精"}
+    ],
+    "relatedRecipes":[
+        {"title":"手撕茄子",  "position": "prev", "href": "123123432.xml"},
+        {"title": "油炸茄条",  "position": "next", "href": "123123432.xml"}
+    ]
+}
