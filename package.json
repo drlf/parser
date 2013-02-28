@@ -27,7 +27,7 @@
     "stack": "*",
     "iconv-lite": "*",
     "stack-trace" : "*",
-    "winston": "*"
+    "winston": "*",
     "cheerio": "*"
   },
   "devDependencies": {
